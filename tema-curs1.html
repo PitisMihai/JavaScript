@@ -6,8 +6,20 @@
 
 const PI = 3.14;
 var raza = 10;
-const Aria = PI * r * r;
+const Aria = PI * raza * raza;
+console.log("Aria = " + Aria);
 
+var Lfilme = [ "Coherence" , "Contratiempo" , "IT" , "Triangle" , "Blight"];
+
+for(var i=1; i<= 5 ; i++){
+    console.log("Filmul de pe pozitia " + i +  " este:" + Lfilme[i-1])
+};
+var tNumere = [5, 3, "1", 7, "9", 30, "45", 7];
+
+var NrMinim = Math.min (...tNumere);
+var NrMaxim = Math.max (...tNumere);
+console.log("Numarul minim este: " + NrMinim);
+console.log("Numarul maxim este: " + NrMaxim);
 </script>
 
 </body>
